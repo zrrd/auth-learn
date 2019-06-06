@@ -23,6 +23,5 @@ public class SecurityConfiguration extends AuthorizationServerSecurityConfigurat
         .and()
         .authorizeRequests()
         .antMatchers("/oauth/**").permitAll();
-    // @formatter:on
   }
 }
